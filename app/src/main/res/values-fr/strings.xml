@@ -1,53 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">UI_Material_ME</string>
-    <string name="title_placeHolder">Title</string>
-    <string name="sports_info_placeholder">Here is some news</string>
-    <string name="news_placeholder">News</string>
-    <string name="sports_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
-    <string name="image_description">This is an Image</string>
-    <string name="my_app">My App</string>
-    <string name="import_camera">Import</string>
-    <string name="gallery">Gallery</string>
-    <string name="slideshow">Slideshow</string>
-    <string name="tools">Tools</string>
-    <string name="communicate">Communicate</string>
-    <string name="share">Share</string>
-    <string name="send">Send</string>
-    <string name="nav_close">Navigation Bar Close</string>
-    <string name="nav_open">Navigation Bar Open</string>
-    <string name="chose_send">Sending...</string>
-    <string name="chose_share">Sharing...</string>
-    <string name="chose_slideshow">Showing...</string>
-    <string name="chose_gallery">Image Gallery</string>
-    <string name="chose_tools">Settings</string>
-    <string name="chose_camera">Opening Camera</string>
+    <string name="title_placeHolder">Titre</string>
+    <string name="sports_info_placeholder">Voici quelques nouvelles</string>
+    <string name="news_placeholder">Nouvelles</string>
+    <string name="image_description">Ceci est une image</string>
+    <string name="my_app">Mon application</string>
+    <string name="import_camera">Importation</string>
+    <string name="gallery">Galerie</string>
+    <string name="slideshow">Diaporama</string>
+    <string name="tools">Outils</string>
+    <string name="communicate">Communiquer</string>
+    <string name="share">Partager</string>
+    <string name="send">Envoyer</string>
+    <string name="nav_close">Barre de navigation Fermer</string>
+    <string name="nav_open">Barre de navigation ouverte</string>
+    <string name="chose_send">Envoi...</string>
+    <string name="chose_share">Partage...</string>
+    <string name="chose_slideshow">Montrer ...</string>
+    <string name="chose_gallery">Galerie d\'images</string>
+    <string name="chose_tools">Réglages</string>
+    <string name="chose_camera">Caméra d\'ouverture</string>
 
     <string-array name="sports_title">
-        <item>Baseball</item>
+        <item>Base-ball</item>
         <item>Badminton</item>
         <item>Basketball</item>
         <item>Bowling</item>
-        <item>Cycling</item>
-        <item>Golf</item>
-        <item>Running</item>
-        <item>Soccer</item>
-        <item>Swimming</item>
-        <item>Table Tennis</item>
+        <item>Cyclisme</item>
+        <item>Le golf</item>
+        <item>Fonctionnement</item>
+        <item>Football</item>
+        <item>Nager</item>
+        <item>Tennis de table</item>
         <item>Tennis</item>
     </string-array>
 
     <string-array name="sports_info">
-        <item>Here is some Baseball news!</item>
-        <item>Here is some Badminton news!</item>
-        <item>Here is some Basketball news!</item>
-        <item>Here is some Bowling news!</item>
-        <item>Here is some Cycling news!</item>
-        <item>Here is some Golf news!</item>
-        <item>Here is some Running news!</item>
-        <item>Here is some Soccer news!</item>
-        <item>Here is some Swimming news!</item>
-        <item>Here is some Table Tennis news!</item>
-        <item>Here is some Tennis news!</item>
+        <item>Voici quelques nouvelles du baseball!</item>
+        <item>Voici quelques nouvelles du badminton!</item>
+        <item>Voici quelques nouvelles de basket-ball!</item>
+        <item>Voici quelques nouvelles du bowling!</item>
+        <item>Voici quelques nouvelles du cyclisme!</item>
+        <item>Voici quelques nouvelles du golf!</item>
+        <item>Voici quelques nouvelles en cours!</item>
+        <item>Voici quelques nouvelles du football!</item>
+        <item>Voici quelques nouvelles de la natation!</item>
+        <item>Voici quelques nouvelles du tennis de table!</item>
+        <item>Voici quelques nouvelles du tennis!</item>
     </string-array>
 
     <string-array name="sports_images">
@@ -65,7 +65,7 @@
     </string-array>
 
     <string-array name="sports_details">
-        <item>Baseball is a bat-and-ball game played between two opposing teams who take turns batting and fielding. The game proceeds when a player on the fielding team, called the pitcher, throws a ball which a player on the batting team tries to hit with a bat. The objectives of the offensive team (batting team) are to hit the ball into the field of play, and to run the bases—having its runners advance counter-clockwise around four bases to score what are called \"runs\". The objective of the defensive team (fielding team) is to prevent batters from becoming runners, and to prevent runners\' advance around the bases. A run is scored when a runner legally advances around the bases in order and touches home plate (the place where the player started as a batter). The team that scores the most runs by the end of the game is the winner. </item>
+        <item>Baseball is a bat-and-ball game played between two opposing teams who take turns batting and fielding. The game proceeds when a player on the fielding team, called the pitcher, throws a ball which a player on the batting team tries to hit with a bat. The objectives of the offensive team (batting team) are to hit the ball into the field of play, and to run the bases—having its runners advance counter-clockwise around four bases to score what are called \"runs\". The objective of the defensive team (fielding team) is to prevent batters from becoming runners, and to prevent runners\' advance around the bases. A run is scored when a runner legally advances around the bases in order and touches home plate (the place where the player started as a batter). The team that scores the most runs by the end of the game is the winner.</item>
         <item>Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the game are \"singles\" (with one player per side) and \"doubles\" (with two players per side). Badminton is often played as a casual outdoor activity in a yard or on a beach; formal games are played on a rectangular indoor court. Points are scored by striking the shuttlecock with the racquet and landing it within the opposing side\'s half of the court.\n Each side may only strike the shuttlecock once before it passes over the net. Play ends once the shuttlecock has struck the floor or if a fault has been called by the umpire, service judge, or (in their absence) the opposing side.</item>
         <item>Basketball is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball (approximately 9.4 inches (24 cm) in diameter) through the defender\'s hoop (a basket 18 inches (46 cm) in diameter mounted 10 feet (3.048 m) high to a backboard at each end of the court) while preventing the opposing team from shooting through their own hoop. A field goal is worth two points, unless made from behind the three-point line, when it is worth three. After a foul, timed play stops and the player fouled or designated to shoot a technical foul is given one or more one-point free throws. The team with the most points at the end of the game wins, but if regulation play expires with the score tied, an additional period of play (overtime) is mandated. </item>
         <item>Bowling is a target sport and recreational activity in which a player rolls or throws a bowling ball toward pins (in pin bowling) or another target (in target bowling).\nIn pin bowling, the goal is to knock over pins at the end of a lane, with either two or three balls per frame allowed to knock down all pins. A strike is achieved when all the pins are knocked down on the first roll, and a spare is achieved if all the pins are knocked over on a second roll. </item>

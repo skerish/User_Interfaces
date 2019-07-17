@@ -17,7 +17,7 @@
 
         <TextView
             android:id="@+id/titleDetail"
-            style="@style/TextAppearance.AppCompat.Headline"
+            style="@style/SportsDetailTitle"
             android:layout_alignBottom="@id/sportsImageDetail"
             android:theme="@style/ThemeOverlay.AppCompat.Dark"
             android:layout_width="wrap_content"
@@ -37,12 +37,11 @@
 
         <TextView
             android:id="@+id/subTitleDetail"
-            style="@style/TextAppearance.AppCompat.Subhead"
+            style="@style/SportsDetailText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/newsTitleDetail"
-            android:padding="16dp"
-            android:text="@string/sports_text" />
+            android:padding="16dp" />
 
     </RelativeLayout>
 

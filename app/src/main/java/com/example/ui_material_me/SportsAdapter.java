@@ -1,9 +1,12 @@
 package com.example.ui_material_me;
 
+import android.app.Activity;
+import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.transition.Slide;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,9 +22,14 @@ public class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder
     private ArrayList<Sport> mSportsData;
     private Context context;
 
+    MainActivity mainActivity;
+
+    private static final String TRANSITION_TYPE = "Transition Type";
+
     public SportsAdapter(Context context, ArrayList<Sport> mSportsData) {
         this.mSportsData = mSportsData;
         this.context = context;
+        mainActivity = (MainActivity) context;
     }
 
     @NonNull
@@ -77,7 +85,11 @@ public class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder
             Intent detailIntent = new Intent(context, DetailActivity.class);
             detailIntent.putExtra("title_key", currentSport.getTitle());
             detailIntent.putExtra("image_key", currentSport.getImageResource());
-            context.startActivity(detailIntent);
+            detailIntent.putExtra("details_key", currentSport.getDetails());
+            detailIntent.putExtra(TRANSITION_TYPE, "Slide");
+            mainActivity.getWindow().setExitTransition(new Slide());
+            context.startActivity(detailIntent, ActivityOptions
+                    .makeSceneTransitionAnimation((Activity) context).toBundle());
         }
     }
 }
